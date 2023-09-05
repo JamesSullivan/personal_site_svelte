@@ -30,5 +30,5 @@ description: A placeholder for useful Math, Statistics, and Financial Links that
 - [Max Dama on Automated Trading](http://isomorphisms.sdf.org/maxdama.pdf)
 - [ML-Quant Finance](https://www.ml-quant.com/)
 - [Financial Machine Learning and Data Science](https://github.com/firmai/industry-machine-learning)
-- [Pricing Moneu](www.jdawiseman.com/books/pricing-money/Pricing_Money_JDAWiseman.html)
+- [Pricing Moneu](http://www.jdawiseman.com/books/pricing-money/Pricing_Money_JDAWiseman.html)
 - [FDC3 - Open standards for the financial desktop](https://fdc3.finos.org/)

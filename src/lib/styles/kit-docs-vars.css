@@ -83,16 +83,6 @@
 }
 
 
-.centered {
-text-align: center;
-color: white;
-object-fit: cover;
-}
-
-
-.cropped-image-clip-rectangle {
-  clip-path: inset(200px 0px );
-}
   
 figcaption{
   position: relative;
@@ -101,13 +91,12 @@ figcaption{
   }
 
   .header-image {
-    background-image: url("https://images.prismic.io/sveltekit-starter-prismic-multi-page/c61c6774-e872-43ca-9eec-a1638f37aa2f_3ecae729-d8c2-4872-9cb9-f14d27729d40_max-denisov-iZj-mdpJHq8-unsplash.jpg?auto=compress,format");
-    margin-top: 20px;
+    background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url("https://images.prismic.io/sveltekit-starter-prismic-multi-page/c61c6774-e872-43ca-9eec-a1638f37aa2f_3ecae729-d8c2-4872-9cb9-f14d27729d40_max-denisov-iZj-mdpJHq8-unsplash.jpg?auto=compress,format");
+    margin-top: 30px;
     top: 100%;
     background-position: center;
-    color: black;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
     background-size: cover;
     width: 100%;
   }
