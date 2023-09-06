@@ -2,10 +2,13 @@
   import '@svelteness/kit-docs/client/polyfills/index.js';
   import '@svelteness/kit-docs/client/styles/normalize.css';
   import '@svelteness/kit-docs/client/styles/fonts.css';
-  import '@svelteness/kit-docs/client/styles/theme.css';
-  // import '@svelteness/kit-docs/client/styles/vars.css';
+  // import '@svelteness/kit-docs/client/styles/theme.css';
+  
+ // import '@svelteness/kit-docs/client/styles/vars.css';
   import '$lib/styles/sheet4.css';
   import '$lib/styles/kit-docs-vars.css';
+ // import '$lib/styles/normalize.css';
+
 
   import { page } from '$app/stores';
   import SvelteLogo from '$img/letter-s.svg?raw';
@@ -19,7 +22,7 @@
 
   /** @type {import('@svelteness/kit-docs').NavbarConfig} */
   const navbar = {
-    links: [{ title: 'Menu', slug: '/menu', match: /\/menu/ }],
+    links: [{ title: 'Menu', slug: '/menu', match: /\/menu/ },{ title: 'About', slug: '/about', match: /\/about/ }],
   };
 
   const { activeCategory } = createSidebarContext(sidebar);
@@ -71,4 +74,6 @@
     height: 36px;
     overflow: hidden;
   }
+
+
 </style>

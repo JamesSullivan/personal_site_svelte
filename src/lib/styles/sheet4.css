@@ -2677,6 +2677,12 @@ body {
   }
 }
 
+@media (min-width: 1280px) {
+  .\31 280\:block {
+      display: none;
+  }
+}
+
 @media (min-width: 1440px) {
   .\31 440\:right-6 {
     right: 1.5rem;
