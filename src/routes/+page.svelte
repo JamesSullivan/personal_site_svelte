@@ -15,12 +15,12 @@
 <div class="box a">Digital Product Development</div>
 <div class="box b">Software Engineering</div>
 <div class="box c">Data & Analytics</div>
-<div class="box d">ideation<br>research<br>planning<br>costing<br> sourcing<br>commercialization.</div>
-<div class="box e">team formation<br>prototyping<br>web scraping</div>
-<div class="box f">data visualization</div>
+<div class="box d">research<br>planning<br>costing<br> sourcing<br>commercialization</div>
+<div class="box e">team formation<br>prototyping<br>implementation<br>testing & integration<br>security</div>
+<div class="box f">web scraping<br>data visualization<br>ETL<br>data pipelines<br></div>
 </span>
 </div>
-
+<slot />
 <div class="col-md-8 text-center" >
   <!-- Social media links -->
   Social: 
