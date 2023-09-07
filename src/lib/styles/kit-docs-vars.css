@@ -89,65 +89,75 @@
   --kd-code-highlight-color: rgb(var(--kd-color-brand) / 0.08);
 }
 
-  
-figcaption{
+
+figcaption {
   position: relative;
   top: 60%;
   bottom: 40%;
-  }
+}
 
-  .header-image {
-    background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url("https://images.prismic.io/sveltekit-starter-prismic-multi-page/c61c6774-e872-43ca-9eec-a1638f37aa2f_3ecae729-d8c2-4872-9cb9-f14d27729d40_max-denisov-iZj-mdpJHq8-unsplash.jpg?auto=compress,format");
-    margin-top: 30px;
-    top: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
-    background-size: cover;
-    width: 100%;
-  }
+.header-image {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("https://images.prismic.io/sveltekit-starter-prismic-multi-page/c61c6774-e872-43ca-9eec-a1638f37aa2f_3ecae729-d8c2-4872-9cb9-f14d27729d40_max-denisov-iZj-mdpJHq8-unsplash.jpg?auto=compress,format");
+  margin-top: 30px;
+  top: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  width: 100%;
+}
 
-  .container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    
-  }
+.container {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
 
-  .wrapper {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-gap: 10px;
-  }
-  
-  .box {
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-  }
+}
 
-  /*Social Media */
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 10px;
+}
 
-  .fa-fw {
-    text-align: center;
-    width: 1.25em;
-  }
+.box {
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
 
-  .svg-inline--fa {
-    display:inline-block;
-    font-size:inherit;
-    height:1em;
-    overflow:visible;
-    vertical-align:-.125em
-  }
+.l-font-size{
+  font-size: 2.0rem;
+}
 
-  .svg-inline--fa.fa-fw {
-    width: 1.25em;
-  }
+.xxl-font-size{
+  font-size: 5.0rem;
+}
 
-  .list-inline-item {
-    display: inline-block;
-  }
+/*Social Media */
 
-  .list-inline {
-    list-style: none;
-  }
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: 5.0rem;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em
+}
+
+.svg-inline--fa.fa-fw {
+  width: 1.25em;
+}
+
+.list-inline-item {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline {
+  list-style: none;
+}

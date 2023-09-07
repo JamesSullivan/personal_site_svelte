@@ -1,5 +1,5 @@
 <script>
-  import { Button } from '@svelteness/kit-docs';
+  import { Button, Chip } from '@svelteness/kit-docs';
 </script>
 <p style="font-weight: 600; font-size: 5.0rem; text-align: center;">James Sullivan</p>
 <section class="header-image">
@@ -8,23 +8,23 @@
     <Button style="display: inline-block;" primary href="/about" type="raised">Learn More</Button>
   </div>
 </section>
-<br> 
-<div style="font-weight: 600; font-size: 4.5rem;">Services</div>
+<div style="font-weight: 600; font-size: 4.5rem; padding: 20px;">Services</div>
 <div class="container">
 <span class="wrapper">
-<div class="box a">Digital Product Development</div>
-<div class="box b">Software Engineering</div>
-<div class="box c">Data & Analytics</div>
+<div class="box a l-font-size">Digital Product Dev</div>
+<div class="box b l-font-size">Software Engineering</div>
+<div class="box c l-font-size">Data & Analytics</div>
 <div class="box d">research<br>planning<br>costing<br> sourcing<br>commercialization</div>
 <div class="box e">team formation<br>prototyping<br>implementation<br>testing & integration<br>security</div>
 <div class="box f">web scraping<br>data visualization<br>ETL<br>data pipelines<br></div>
 </span>
 </div>
-<slot />
-<div class="col-md-8 text-center" >
+
+<br><br><br>
+<div class="col-md-8 text-center text-body bg-inverse" >
   <!-- Social media links -->
-  Social: 
-  <ul class="list-inline" style="display: block;">
+  <br>
+  <ul class="list-inline l-font-size" style="display: block;">
       
       <li class="list-inline-item">
           
@@ -51,6 +51,7 @@
       </li>
       
   </ul>
+  <br>
   <!-- website feed links -->
 </div>
 
