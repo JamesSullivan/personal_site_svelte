@@ -48,7 +48,7 @@
     <div class="logo" slot="navbar-left" style="display: inline-block; font-weight: bold; font-size: 30px;">
       <Button style="display: inline-block; vertical-align: middle;" href="/">
         {@html SvelteLogo }
-      </Button>olutions
+      </Button>olutions.asia
     </div>
 
     <slot />
