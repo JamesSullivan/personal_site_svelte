@@ -5,7 +5,7 @@ excerpt: "Leveraging LLMs like ChatGPT for Financial Reference Data"
 date: 2023-01-20 09:00:34 +0900
 categories: ML
 
-image: /images//LLMS2.png
+image: /images/LLMS2.png
 image_alt: ChatGPT
 image_caption: ChatGPT and Financial Reference Data
 ---
