@@ -1,19 +1,22 @@
 <script>
-  import '@svelteness/kit-docs/client/polyfills/index.js';
-  import '@svelteness/kit-docs/client/styles/normalize.css';
-  import '@svelteness/kit-docs/client/styles/fonts.css';
-  // import '@svelteness/kit-docs/client/styles/theme.css';
-  
- // import '@svelteness/kit-docs/client/styles/vars.css';
-  import '$lib/styles/sheet4.css';
-  import '$lib/styles/kit-docs-vars.css';
- // import '$lib/styles/normalize.css';
+  import "@svelteness/kit-docs/client/polyfills/index.js";
+  import "@svelteness/kit-docs/client/styles/normalize.css";
+  import "@svelteness/kit-docs/client/styles/fonts.css";
+  import "@svelteness/kit-docs/client/styles/theme.css";
 
+  // import '@svelteness/kit-docs/client/styles/vars.css';
+  // import '$lib/styles/sheet4.css';
+  import "$lib/styles/kit-docs-vars.css";
 
-  import { page } from '$app/stores';
-  import SvelteLogo from '$img/letter-s.svg?raw';
+  import { page } from "$app/stores";
+  import SvelteLogo from "$img/letter-s.svg?raw";
 
-  import { Button, KitDocs, KitDocsLayout, createSidebarContext } from '@svelteness/kit-docs';
+  import {
+    Button,
+    KitDocs,
+    KitDocsLayout,
+    createSidebarContext,
+  } from "@svelteness/kit-docs";
 
   /** @type {import('./$types').LayoutData} */
   export let data;
@@ -22,12 +25,15 @@
 
   /** @type {import('@svelteness/kit-docs').NavbarConfig} */
   const navbar = {
-    links: [{ title: 'Menu', slug: '/menu', match: /\/menu/ },{ title: 'About', slug: '/about', match: /\/about/ }],
+    links: [
+      { title: "Menu", slug: "/menu", match: /\/menu/ },
+      { title: "About", slug: "/about", match: /\/about/ },
+    ],
   };
 
   const { activeCategory } = createSidebarContext(sidebar);
 
-  $: category = $activeCategory ? `${$activeCategory}: ` : '';
+  $: category = $activeCategory ? `${$activeCategory}: ` : "";
   $: title = meta ? `${category}${meta.title} | KitDocs` : null;
   $: description = meta?.description;
 </script>
@@ -45,10 +51,14 @@
 
 <KitDocs {meta}>
   <KitDocsLayout {navbar} {sidebar}>
-    <div class="logo" slot="navbar-left" style="display: inline-block; font-weight: bold; font-size: 30px;">
+    <div
+      class="logo"
+      slot="navbar-left"
+      style="display: inline-block; font-weight: bold; font-size: 30px;"
+    >
       <Button style="display: inline-block; vertical-align: middle;" href="/">
-        {@html SvelteLogo }
-      </Button>olutions.asia
+        {@html SvelteLogo}
+      </Button><a href="/" style="display: inline-block;">olutions.asia</a>
     </div>
 
     <slot />
@@ -74,6 +84,4 @@
     height: 36px;
     overflow: hidden;
   }
-
-
 </style>

@@ -13,7 +13,7 @@ description: A placeholder for useful Software Development Related Links I have 
 - ADS [Algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/?)
 - ADS [Functional Data Structures](https://cs.uwaterloo.ca/~plragde/flaneries/FDS/index.html)
 - ADS [Dijkstra's in Disguise](https://blog.evjang.com/2018/08/dijkstras.html)
-- ADS [Top Algorithms/Data Structures/Concepts every computer science student should know](https://medium.com/techie-delight/top-algorithms-data-structures-concepts-every-computer-science-student-should-know-e0549c67b4ac)
+- ADS [Top Algorithms/Data Structures/Concepts every CS student should know](https://medium.com/techie-delight/top-algorithms-data-structures-concepts-every-computer-science-student-should-know-e0549c67b4ac)
 - ADS [15 fundamental system design concepts](https://interviewing.io/guides/system-design-interview)
 - Bash [Bash History Shortcuts You Will Actually Use](https://zwischenzugs.com/2019/08/25/seven-god-like-bash-history-shortcuts-you-will-actually-use/) 
 - Bash [Productive Shell Commands and Command-Line Tricks](https://betterprogramming.pub/the-most-productive-shell-commands-and-command-line-tricks-ec1415283259) 	
