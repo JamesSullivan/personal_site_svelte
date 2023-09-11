@@ -113,6 +113,12 @@ figcaption {
   grid-gap: 10px;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  font-size:80%;
+}
+
 .box {
   border-radius: 5px;
   padding: 20px;
