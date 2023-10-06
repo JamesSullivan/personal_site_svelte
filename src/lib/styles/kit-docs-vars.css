@@ -89,6 +89,7 @@
   --kd-code-highlight-color: rgb(var(--kd-color-brand) / 0.08);
 }
 
+/* Added by James Sullivan */
 
 figcaption {
   position: relative;
@@ -107,16 +108,15 @@ figcaption {
   width: 100%;
 }
 
-
 .wrapper {
   flex-wrap: wrap;
   grid-gap: 10px;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  font-size:80%;
+  font-size: 80%;
 }
 
 .box {

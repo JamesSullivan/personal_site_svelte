@@ -46,6 +46,7 @@ description: A placeholder for useful OS, VS Code and other keyboard shortcuts
 <Chip>Middle click tab</Chip> - Close tab<br>
 <Chip>Middle click page</Chip> - Open link in background<br>
 <Chip>⇧+Middle click page</Chip> - Open link in foreground<br>
+<Chip>⇧+Right click</Chip> - Force browser right click menu<br>
 <Chip>F6</Chip> - Move to next frame<br>
 <Chip>F7</Chip> - Caret browsing<br>
 <Chip>⇧+Ctrl+N</Chip> - Undo close window (FF) or private (Chrome)<br>

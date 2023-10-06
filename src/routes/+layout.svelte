@@ -4,7 +4,7 @@
   import "@svelteness/kit-docs/client/styles/fonts.css";
   // import "@svelteness/kit-docs/client/styles/theme.css";
   // import '@svelteness/kit-docs/client/styles/vars.css';
-  import '$lib/styles/theme.css';
+  import "$lib/styles/theme.css";
   import "$lib/styles/kit-docs-vars.css";
 
   import { page } from "$app/stores";
