@@ -34,14 +34,14 @@
   <div class="box a">
     <div style="font-size: 150%">Digital Product Dev</div>
     <div class="ml-4">
-      research<br />planning<br />costing<br /> sourcing<br />commercialization
+      research<br />planning<br />costing<br /> sourcing
     </div>
   </div>
   <div class="box b">
     <div style="font-size: 150%">Software Engineering</div>
     <div class="ml-4">
       team formation<br />prototyping<br />implementation<br />testing &
-      integration<br />security
+      integration
     </div>
   </div>
   <div class="box c text-left">
