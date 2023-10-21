@@ -60,29 +60,34 @@ description: A placeholder for useful OS, VS Code and other keyboard shortcuts
    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS Code</a>
 </div>
 <Chip>Alt-Click</Chip> - Add another cursor<br>
-<Chip>Select+Ctrl+d</Chip> - add multi-cursor at next instance&nbsp;<br>
+<Chip>Select+Ctrl+d</Chip> - add multi-cursor at next<br>
 <Chip>Alt+￪</Chip> - Move current line up one line<br>
 <Chip>⇧+Alt</Chip> - box selection of text<br>
 <Chip>⇧+Alt+￪</Chip> - Extend Cursor upwards<br>
 <Chip>⇧+Alt+→</Chip> - Extend selection horizontally<br>
+<Chip>⇧+Alt+.</Chip> - Autofix<br>
 <Chip>F2</Chip> - rename all instances of a variable or function<br>
+<Chip>F3/⇧+F3</Chip> - Find next/previous<br>
+<Chip>F8</Chip> - go to next error or warning<br>
 <Chip>F12</Chip> - go to definition<br>
+<Chip>Ctrl+Enter</Chip> - add new line below/⇧above<br>
 <Chip>Ctrl+[</Chip> - shift selection left or Ctrl+] right<br>
 <Chip>Ctrl+b</Chip> - toggle side panel<br>
-<Chip>Ctrl+d</Chip> - go to next after find/current  selection<br>
+<Chip>Ctrl+d</Chip> - go to next after find/multiselection<br>
 <Chip>Ctrl+g</Chip> - go to line<br>
-<Chip>Ctrl+j</Chip> - toggle focus between editor/terminal<br>
-<Chip>Ctrl+l</Chip> - select line (repeat to select following)<br>
 </div>
 <div style="">
 <div class="l-font-size">
   &nbsp;
 </div>
+<Chip>Ctrl+j</Chip> - toggle focus between editor/terminal<br>
+<Chip>Ctrl+l</Chip> - select line (repeat to select following)<br>
 <Chip>Ctrl+p</Chip> - search files<br>
 <Chip>Ctrl+x</Chip> - with nothing selected cuts entire line<br>
 <Chip>Ctrl+/</Chip> - comment code (works on Jupyter also)<br>
 <Chip>Ctrl+\</Chip> - split editor<br>
-<Chip>Ctrl+Alt+n</Chip> - run current file (see code-runner settings)<br>
+<Chip>⇧+Ctrl+\</Chip> - goto matching bracket ()<br>
+<Chip>Ctrl+Alt+n</Chip> - run current file (code-runner)<br>
 <Chip>⇧+Ctrl+Alt+￬</Chip> - Copy line down<br>
 <Chip>⇧+Ctrl+i</Chip> - format code<br>
 <Chip>⇧+Ctrl+l</Chip> - rename all similar text<br>
@@ -90,11 +95,11 @@ description: A placeholder for useful OS, VS Code and other keyboard shortcuts
 <Chip>Ctrl+k Ctrl+s</Chip> - keyboard shortcuts<br>
 <Chip>⇧+Ctrl+o</Chip> - find by code<br>
 <Chip>⇧+Ctrl+v</Chip> - preview (markdown)<br>
-<Chip>Ctrl+Enter</Chip> - move cursor to new line below<br>
 <Chip>New file ! then tab</Chip> - creates html template<br>     
 </div>
 </div>
 <br>
+
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
