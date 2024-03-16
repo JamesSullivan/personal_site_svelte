@@ -32,3 +32,4 @@ description: A placeholder for useful Large Language Model Links that I have com
 - [Tutorial: Llama-2 4bit fine-tune with dolly-15k on Colab (Free)](https://www.reddit.com/r/learnmachinelearning/comments/156m1eh/p_tutorial_llama2_4bit_finetune_with_dolly15k_on/)
 - [Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps)
 - [Llama from scratch](https://blog.briankitano.com/llama-from-scratch/)
+- [Optimize a RAG application](https://docs.parea.ai/tutorials/getting-started-rag)

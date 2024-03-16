@@ -38,5 +38,6 @@ description: A placeholder for useful Software Development Related Links I have 
 - UI CSS [UnusedCSS - Remove Unused CSS](https://unused-css.com)
 - UI CSS [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
 - UI CSS [Modern CSS in Real Life](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)
+- UI CSS [Tiny CSS Projects](https://github.com/michaelgearon/Tiny-CSS-Projects)
 - VCS [Learn Git Branching](https://learngitbranching.js.org/)
 
