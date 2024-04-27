@@ -53,6 +53,7 @@ I had to save and reboot the computer each time for the following three steps.
 
 Insert your Ubuntu USB drive, then turn on your computer and repeatedly click F12 until you get a boot menu. The USB drive should be one of the choices, and select it. 
 
+#### UBUNTU 22.04
 At this point, it should be a normal Ubuntu LTS install, so follow the Wizard. However, after you have finished installing Ubuntu to disk and rebooting, you will likely run into the following error:
 
 `nouveau 0000:01:00.0  unknown chipset (192000a1)`
@@ -60,6 +61,10 @@ At this point, it should be a normal Ubuntu LTS install, so follow the Wizard. H
 Don't panic; instead, reboot, except this time, press `e` at boot up to enter the bootloader and edit the kernel options. Do this by adding `nomodeset rdblacklist=nouveau` to the end of the line that begins with Linux. Then continue to boot the system. <a href="https://askubuntu.com/questions/38780/how-do-i-set-nomodeset-after-ive-already-installed-ubuntu">Further nomodeset info</a>.
 
 Now that you are in Ubuntu, go to Software & Updates -> Additional Drivers and select Using NVIDIA driver meta package from Nvidia-driver-535 (proprietary, tested). After applying and saving the changes, you should be good for your next restart.
+
+#### UBUNTU 24.04
+The installer pretty much works as expected and installs . One item to note is that the installer will not work with certain 4K monitors. In my case I did the install using a non-4k monitor and then after Ubuntu 24.04 was installed switched back to my LG 4K monitor.
+
 
 The installer defaults to x11 rather than Wayland display server, but at this point, I am just happy to have a working installation.
 
