@@ -33,7 +33,7 @@
 
   /* --kd-content-max-width: 1440px; */
   /* --kd-main-max-width: unset; */
-  --kd-article-max-width: 85ch;
+  --kd-article-max-width: 140ch;
 
   --kd-main-padding-x: 1rem;
 }
@@ -90,6 +90,10 @@
 }
 
 /* Added by James Sullivan */
+
+td {
+  white-space: normal; /* Or white-space: pre-wrap; */
+}
 
 figcaption {
   position: relative;

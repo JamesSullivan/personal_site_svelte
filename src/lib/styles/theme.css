@@ -472,7 +472,7 @@
 
 .prose :where(tbody td):not(:where([class~="not-prose"] *)) {
   vertical-align: baseline;
-  white-space: nowrap;
+  /** white-space: nowrap; **/
 }
 
 .prose :where(tfoot):not(:where([class~="not-prose"] *)) {
