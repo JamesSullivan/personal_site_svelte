@@ -144,7 +144,7 @@ Create a package.json file for this project.
 ```
 
 <p>Use <code>continue</code> or <code>go on</code> to get around token output limits.</p>
-
+<a href="#ide-integration" class="header-anchor" aria-hidden="true">#</a>
 # IDE Integration
 
 <p>IDEs use the context that you have provided via the comments and code in your file and offer suggestions. They allow you to work on details while staying in your dev tooling.</p>
