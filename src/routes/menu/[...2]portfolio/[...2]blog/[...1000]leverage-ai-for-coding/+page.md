@@ -144,7 +144,6 @@ Create a package.json file for this project.
 ```
 
 <p>Use <code>continue</code> or <code>go on</code> to get around token output limits.</p>
-<a href="#ide-integration" class="header-anchor" aria-hidden="true">#</a>
 # IDE Integration
 
 <p>IDEs use the context that you have provided via the comments and code in your file and offer suggestions. They allow you to work on details while staying in your dev tooling.</p>
@@ -361,8 +360,8 @@ Translate this Javascript code to Python
   <li>UI designer <a href="https://uizard.io/">Uizard</a></li>
   <li> Bug reporter <a href="https://jam.dev/docs/product-features/jamgpt">JamGPT</a> Chrome extension</li>
   <li>Security <a href="https://app.snyk.io/login">Synk</a> finds and fixes security issues in proprietary code</li>
-  <li>Issue tracker <a href="https://bugasura.io">Bugasura</a>like JIRA with built-in AI</li>
-  <li>Issue tracker <a href="https://github.com/tegonhq/tegon">Tegon</a>open-source, AI-first alternative to Jira, Linear </li>
+  <li>Issue tracker <a href="https://bugasura.io">Bugasura</a> like JIRA with built-in AI</li>
+  <li>Issue tracker <a href="https://github.com/tegonhq/tegon">Tegon</a> open-source, AI-first alternative to Jira, Linear </li>
 </ul>
  
 
