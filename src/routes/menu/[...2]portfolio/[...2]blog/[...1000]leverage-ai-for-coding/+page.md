@@ -363,6 +363,7 @@ Translate this Javascript code to Python
   <li>Issue tracker <a href="https://bugasura.io">Bugasura</a> like JIRA with built-in AI</li>
   <li>Issue tracker <a href="https://github.com/tegonhq/tegon">Tegon</a> open-source, AI-first alternative to Jira, Linear </li>
   <li>Local Git repo code editor <a href="https://github.com/paul-gauthier/aider">Aider</a> is a CLI tool to pair program with LLMs.</li>
+  <li>Terminal AI coding agent <a href="https://github.com/plandex-ai/plandex">Plandex</a> for large, complex tasks in existing codebases</li>
 </ul>
  
 
