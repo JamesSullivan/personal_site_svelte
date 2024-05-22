@@ -358,9 +358,11 @@ Translate this Javascript code to Python
 
 <ul>
   <li>UI designer <a href="https://uizard.io/">Uizard</a></li>
-  <li> Bug reporter <a href="https://jam.dev/docs/product-features/jamgpt">JamGPT</a> Chrome extension</li>
+  <li>Bug reporter <a href="https://jam.dev/docs/product-features/jamgpt">JamGPT</a> Chrome extension</li>
   <li>Security <a href="https://app.snyk.io/login">Synk</a> finds and fixes security issues in proprietary code</li>
-  <li>Issue tracker <a href="https://bugasura.io">Bugasura</a>like JIRA with built-in AI</li>
+  <li>Issue tracker <a href="https://bugasura.io">Bugasura</a> like JIRA with built-in AI</li>
+  <li>Issue tracker <a href="https://github.com/tegonhq/tegon">Tegon</a> open-source, AI-first alternative to Jira, Linear </li>
+  <li>Local Git repo code editor <a href="https://github.com/paul-gauthier/aider">Aider</a> is a CLI tool to pair program with LLMs.</li>
 </ul>
  
 
