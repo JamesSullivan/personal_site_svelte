@@ -25,6 +25,7 @@ description: A placeholder for useful Software Development Related Links I have 
 - Educ [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
 - Func [From design patterns to category theory](https://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/)
 - Func [Functional Python](https://www.tweag.io/blog/2022-09-08-fp1-typopaedia-pythonica/)
+- Func [Statically Typed Functional Programming with Python 3.12](https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html)
 - Func [Python HOWTOs » Functional Programming](https://docs.python.org/3/howto/functional.html)
 - Func [Functional TypeScript](https://www.reddit.com/r/typescript/comments/1csqln6/hi_whats_the_best_resource_to_learn_fp_in/)
 - Func [Of Algebirds, Monoids, Monads, and other Bestiary for Large-Scale Data Analytics](https://www.michael-noll.com/blog/2013/12/02/twitter-algebird-monoid-monad-for-large-scala-data-analytics/)

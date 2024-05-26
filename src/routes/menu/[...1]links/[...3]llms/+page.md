@@ -34,3 +34,4 @@ description: A placeholder for useful Large Language Model Links that I have com
 - [Llama from scratch](https://blog.briankitano.com/llama-from-scratch/)
 - [Optimize a RAG application](https://docs.parea.ai/tutorials/getting-started-rag)
 - [DSPy: Programming—not prompting—Foundation Models](https://github.com/stanfordnlp/dspy)
+- [Financial Statement Analysis with Large Language Models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835311)
