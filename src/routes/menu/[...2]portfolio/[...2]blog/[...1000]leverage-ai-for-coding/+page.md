@@ -79,6 +79,14 @@ image_caption: AI Assisted Computing
       <td></td>
       <td>Paid</td>
     </tr>
+    <tr>
+      <td><a href="https://chat.mistral.ai/chat">Le Chat Mistral</a></td>
+      <td>MISTRAL</td>
+      <td>No</td>
+      <td>Mixtral open source model with emphasis on code</td>
+      <td></td>
+      <td>No</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -192,6 +200,20 @@ Create a package.json file for this project.
       <td>Many popular languages</td>
       <td>On-premises, on VPC, or as secure SaaS</td>
       <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://codebuddy.ca/">Codebuddy</a></td>
+      <td>Yes</td>
+      <td>VS Code, JetBrains</td>
+      <td>Can select files for your prompt</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://cursor.sh/">Cursor.sh</a></td>
+      <td>Yes</td>
+      <td>Proprietary AI-first code editor</td>
+      <td>Good large file context support</td>
+      <td>Proprietary IDE</td>
     </tr>
     <tr>
       <td><a href="https://codeium.com/">Codeium</a></td>
