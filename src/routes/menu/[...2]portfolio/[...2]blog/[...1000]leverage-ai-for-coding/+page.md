@@ -206,6 +206,7 @@ Create a package.json file for this project.
       <td><a href="https://codebuddy.ca/">Codebuddy</a></td>
       <td>Yes</td>
       <td>VS Code, JetBrains</td>
+      <td>Many popular languages</td>
       <td>Can select files for your prompt</td>
       <td></td>
     </tr>
@@ -213,6 +214,7 @@ Create a package.json file for this project.
       <td><a href="https://cursor.sh/">Cursor.sh</a></td>
       <td>Yes</td>
       <td>Proprietary AI-first code editor</td>
+      <td>Many popular languages</td>
       <td>Good large file context support</td>
       <td>Proprietary IDE</td>
     </tr>
