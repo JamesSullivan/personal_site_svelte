@@ -35,6 +35,7 @@ description: A placeholder for useful Software Development Related Links I have 
 - Func [The algebra (and calculus!) of algebraic data types](https://codewords.recurse.com/issues/three/algebra-and-calculus-of-algebraic-data-types)
 - IDE [VS Code can do that?!](https://vscodecandothat.com/?)
 - UI [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
+- UI [D3 in Depth - Learn D3.js from the ground up](https://www.d3indepth.com/)
 - UI CSS [Learn CSS](https://web.dev/learn/css/)
 - UI CSS [The Rules of Margin Collapse](https://www.joshwcomeau.com/css/rules-of-margin-collapse/)
 - UI CSS [UnusedCSS - Remove Unused CSS](https://unused-css.com)
