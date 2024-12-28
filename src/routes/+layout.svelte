@@ -55,9 +55,10 @@
   {/key}
 </svelte:head>
 
-<!-- <KitDocs {meta}>
+<!-- 
+<KitDocs {meta}>
   <KitDocsLayout {navbar} {sidebar}>
-    <!-- @migration-task: migrate this slot by hand, `navbar-left` is an invalid identifier -->
+    @migration-task: migrate this slot by hand, `navbar-left` is an invalid identifier
   <div
       class="logo"
       slot="navbar-left"
@@ -70,7 +71,8 @@
 
     {@render children?.()}
   </KitDocsLayout>
-</KitDocs> -->
+</KitDocs> 
+-->
 
 <KitDocs {meta}>
   <KitDocsLayout {navbar} {sidebar}>
