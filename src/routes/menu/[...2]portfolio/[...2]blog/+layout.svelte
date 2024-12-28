@@ -1,5 +1,10 @@
-<script>
+<script lang="ts">
     import { browser } from "$app/environment";
+    interface Props {
+        children?: import('svelte').Snippet;
+    }
+
+    let { children }: Props = $props();
     // console.log(typeof window);
     if (browser) {
         const x = window.matchMedia("(min-width: 1280px)").matches;
@@ -12,4 +17,4 @@
     }
 </script>
 
-<slot />
+{@render children?.()}
