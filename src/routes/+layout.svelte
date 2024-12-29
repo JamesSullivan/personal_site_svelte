@@ -17,10 +17,17 @@
     createSidebarContext,
   } from "@svelteness/kit-docs";
 
-  /** @type {import('./$types').LayoutData} */
-  export let data;
+  
+  /**
+   * @typedef {Object} Props
+   * @property {import('./$types').LayoutData} data
+   * @property {import('svelte').Snippet} [children]
+   */
 
-  $: ({ meta, sidebar } = data);
+  /** @type {Props} */
+  let { data, children } = $props();
+
+  let { meta, sidebar } = $derived(data);
 
   /** @type {import('@svelteness/kit-docs').NavbarConfig} */
   const navbar = {
@@ -32,9 +39,9 @@
 
   const { activeCategory } = createSidebarContext(sidebar);
 
-  $: category = $activeCategory ? `${$activeCategory}: ` : "";
-  $: title = meta ? `${category}${meta.title} | solutions.asia` : null;
-  $: description = meta?.description;
+  let category = $derived($activeCategory ? `${$activeCategory}: ` : "");
+  let title = $derived(meta ? `${category}${meta.title} | solutions.asia` : null);
+  let description = $derived(meta?.description);
 </script>
 
 <svelte:head>
@@ -48,9 +55,11 @@
   {/key}
 </svelte:head>
 
+<!-- 
 <KitDocs {meta}>
   <KitDocsLayout {navbar} {sidebar}>
-    <div
+    @migration-task: migrate this slot by hand, `navbar-left` is an invalid identifier
+  <div
       class="logo"
       slot="navbar-left"
       style="display: inline-block; font-weight: bold; font-size: 30px;"
@@ -60,7 +69,28 @@
       </Button><a href="/" style="display: inline-block;">olutions.asia</a>
     </div>
 
-    <slot />
+    {@render children?.()}
+  </KitDocsLayout>
+</KitDocs> 
+-->
+
+<KitDocs {meta}>
+  <KitDocsLayout {navbar} {sidebar}>
+    <!-- Place the custom navbar content into a suitable slot or use a wrapper component -->
+    <svelte:fragment slot="navbar">
+      <div
+        class="logo"
+        style="display: inline-block; font-weight: bold; font-size: 30px;"
+      >
+        <Button style="display: inline-block; vertical-align: middle;" href="/">
+          {@html SvelteLogo}
+        </Button>
+        <a href="/" style="display: inline-block;">olutions.asia</a>
+      </div>
+    </svelte:fragment>
+
+    <!-- Render the main children content -->
+    {@render children?.()}
   </KitDocsLayout>
 </KitDocs>
 
