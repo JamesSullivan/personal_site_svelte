@@ -1,6 +1,6 @@
 {
   "name": "yourdocs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "dev": "vite dev",
@@ -30,8 +30,8 @@
     "tslib": "^2.6.2",
     "typescript": "^5.4.5",
     "unplugin-icons": "^0.14.0",
-    "vite": "^4.4.2",
-    "vitest": "^0.32.2"
+    "vite": "^5.2.10",
+    "vitest": "^1.5.2"
   },
   "type": "module"
 }
