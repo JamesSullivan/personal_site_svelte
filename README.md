@@ -47,4 +47,4 @@ You can preview the production build with `npm run preview`.
 
 
 
-## In future replace with https://github.com/vercel/next.js/tree/canary/examples/blog-starter
+## In future replace with https://github.com/JamesSullivan/personal_site_nextjs
